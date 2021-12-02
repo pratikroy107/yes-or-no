@@ -9,7 +9,7 @@
     display: grid;
     place-items: center;
     justify-content: center;
-    background-color: aqua;
+    background-color: blueviolet;
 }
 .container-two {
     border-radius: 20px;
@@ -19,9 +19,10 @@
     flex-direction: column;
     min-height: 30vh;
     min-width: 50vh;
-    background-color: yellow;
+    background-color: orchid;
     
 }
+
 .btn {
     display: flex;
     flex-direction: row;

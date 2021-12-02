@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.container-two {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 30vh;
+    min-width: 50vh;
+    background-color: yellow;
+    
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.yes-button {
+    margin: 30px;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+}
+.no-button {
+    margin: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+}
